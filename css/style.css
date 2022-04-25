@@ -6,10 +6,13 @@
   font-family: sans-serif;
 }
 
+header {
+  width: 100vw;
+  height: 100vh;
+}
+
 .navigation {
-  width: 100%;
-  padding: 20px;
-  margin: 20px;
+  padding: 0 500px;
   background: -webkit-gradient(linear, right top, left top, from(#d30bc9), to(#c3ff00));
   background: linear-gradient(270deg, #d30bc9, #c3ff00);
   display: -webkit-box;
@@ -25,7 +28,7 @@
 
 .logo {
   width: 200px;
-  height: 50px;
+  height: 100px;
 }
 
 .logo img {
@@ -39,12 +42,11 @@
 
 .reponse a {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
 }
 
 .buttun_tag {
-  left: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,13 +63,8 @@
   height: 20px;
 }
 
-.buttun_tag img {
-  width: 100%;
-  height: 100%;
-}
-
 .buttun_tag button {
-  width: 100px;
+  width: 120px;
   height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,9 +75,21 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #6d12c7;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.buttun_tag button:hover {
+  background-color: #111;
+  border: 4px solid #6d12c7;
+  color: #fff;
 }
 
 .container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 90px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: ()[3.1fr];
@@ -99,7 +108,7 @@
 
 .card1 {
   width: 400px;
-  height: 600px;
+  height: 500px;
   border-radius: 10px;
   border: 2px solid rebeccapurple;
   padding: 10px;
@@ -111,14 +120,66 @@
           justify-content: center;
 }
 
-.card1 img {
-  width: 400px;
-  height: 300px;
-  border-radius: 20px;
-  margin: 10px;
+.card1 .lorem {
+  width: 600px;
+  height: 20px;
 }
 
-.card1 .block {
+.card1 .imega {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 300px;
+  width: 100%;
+}
+
+.card1 img {
+  width: 300px;
+  height: 200px;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title h3 {
+  color: black;
+  cursor: pointer;
+}
+
+.title h3:hover {
+  color: rgba(41, 41, 248, 0.862);
+  cursor: pointer;
+}
+
+p {
+  margin-top: 40px;
+}
+
+img {
+  margin-top: 20%;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,12 +191,11 @@
           justify-content: space-between;
 }
 
-.card1 .block .data {
+.block .data {
   font-family: sans-serif;
-  letter-spacing: 3px;
 }
 
-.card1 .block img {
+.block img {
   width: 20px;
   height: 20px;
 }
