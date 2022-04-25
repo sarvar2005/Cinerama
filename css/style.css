@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navigation {
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  background: -webkit-gradient(linear, right top, left top, from(#d30bc9), to(#c3ff00));
+  background: linear-gradient(270deg, #d30bc9, #c3ff00);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.reponse {
+  word-spacing: 10px;
+}
+
+.reponse a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+}
+
+.buttun_tag {
+  left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buttun_tag img {
+  width: 20px;
+  height: 20px;
+}
+
+.buttun_tag img {
+  width: 100%;
+  height: 100%;
+}
+
+.buttun_tag button {
+  width: 100px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: ()[3.1fr];
+      grid-template-columns: repeat(3.1fr);
+  gap: 6px;
+  justify-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card1 {
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  border: 2px solid rebeccapurple;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card1 img {
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.card1 .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card1 .block .data {
+  font-family: sans-serif;
+  letter-spacing: 3px;
+}
+
+.card1 .block img {
+  width: 20px;
+  height: 20px;
+}
+/*# sourceMappingURL=style.css.map */
